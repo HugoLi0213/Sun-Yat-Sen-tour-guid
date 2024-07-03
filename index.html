@@ -12,17 +12,33 @@
         <h1 class="text-center">Sun Yat Sen Tour Guide</h1>
         <div class="row mt-4">
             <div class="col-md-6">
-                <button class="btn btn-primary btn-block mb-2" onclick="playAudio('audio1')">Track 1</button>
-                <audio id="audio1" src="track1.mp3"></audio>
-
-                <button class="btn btn-primary btn-block mb-2" onclick="playAudio('audio2')">Track 2</button>
-                <audio id="audio2" src="track2.mp3"></audio>
-
-                <button class="btn btn-primary btn-block mb-2" onclick="playAudio('audio3')">Track 3</button>
-                <audio id="audio3" src="track3.mp3"></audio>
-
-                <button class="btn btn-primary btn-block mb-2" onclick="playAudio('audio4')">Track 4</button>
-                <audio id="audio4" src="track4.mp3"></audio>
+                <div class="audio-section mb-4">
+                    <button class="btn btn-primary" onclick="playAudio('audio1')">Track 1</button>
+                    <button class="btn btn-secondary" onclick="toggleText('text1')">Show Text</button>
+                    <audio id="audio1" src="track1.mp3"></audio>
+                    <p id="text1" class="audio-text">This is the text for Track 1.</p>
+                </div>
+                
+                <div class="audio-section mb-4">
+                    <button class="btn btn-primary" onclick="playAudio('audio2')">Track 2</button>
+                    <button class="btn btn-secondary" onclick="toggleText('text2')">Show Text</button>
+                    <audio id="audio2" src="track2.mp3"></audio>
+                    <p id="text2" class="audio-text">This is the text for Track 2.</p>
+                </div>
+                
+                <div class="audio-section mb-4">
+                    <button class="btn btn-primary" onclick="playAudio('audio3')">Track 3</button>
+                    <button class="btn btn-secondary" onclick="toggleText('text3')">Show Text</button>
+                    <audio id="audio3" src="track3.mp3"></audio>
+                    <p id="text3" class="audio-text">This is the text for Track 3.</p>
+                </div>
+                
+                <div class="audio-section mb-4">
+                    <button class="btn btn-primary" onclick="playAudio('audio4')">Track 4</button>
+                    <button class="btn btn-secondary" onclick="toggleText('text4')">Show Text</button>
+                    <audio id="audio4" src="track4.mp3"></audio>
+                    <p id="text4" class="audio-text">This is the text for Track 4.</p>
+                </div>
             </div>
             <div class="col-md-6 text-center">
                 <img src="guide_photo.jpg" alt="Guide Photo" class="img-fluid mb-4">

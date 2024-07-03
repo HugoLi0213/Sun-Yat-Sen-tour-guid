@@ -1,21 +1,29 @@
 body {
-    background-color: #f0f0f0;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.container {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+#map-container {
+    height: 300px;
 }
 
-.audio-section {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+#photo-container img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
 }
 
-.audio-text {
-    display: none;
-    margin-top: 10px;
+#textContent {
+    height: 500px;
+    overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+    #map-container, #photo-container, #textContent {
+        margin-bottom: 20px;
+    }
+    
+    #textContent {
+        height: 300px;
+    }
 }

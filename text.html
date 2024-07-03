@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Text</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Track Text</h1>
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <div id="textContent"></div>
+            </div>
+        </div>
+        <button class="btn btn-primary mt-3" onclick="goBack()">Back</button>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var urlParams = new URLSearchParams(window.location.search);
+            var track = urlParams.get('track');
+            if (track) {
+                fetch(track + '.txt')
+                    .then(response => response.text())
+                    .then(data => {
+                        document.getElementById('textContent').innerText = data;
+                    });
+            }
+        });
+
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>

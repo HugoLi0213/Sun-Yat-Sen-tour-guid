@@ -73,10 +73,10 @@ function updateMap(mapId) {
     var map = document.getElementById("map");
     switch(mapId) {
       case 'map1':
-        map.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.9178490290213!2d114.13410861529721!3d22.283921285327654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403ff1d5b7d2671%3A0xf4cc5bf8e61c7ed1!2sThe%20University%20of%20Hong%20Kong!5e0!3m2!1sen!2shk!4v1621443681049!5m2!1sen!2shk&markers=color:red%7Clabel:HKU%7C22.283921,114.134109";
+        map.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.9178490290213!2d114.13410861529721!3d22.283921285327654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403ff1d5b7d2671%3A0xf4cc5bf8e61c7ed1!2sThe%20University%20of%20Hong%20Kong!5e0!3m2!1sen!2shk!4v1621443681049!5m2!1sen!2shk&markers=color:red%7C22.283921,114.134109";
         break;
       case 'map2':
-        map.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.8964120199723!2d114.14173001529998!3d22.285376285326205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400e5d0e87b19%3A0x8db3e7b3657c4628!2sDiocesan%20Home%20and%20Orphanage!5e0!3m2!1sen!2shk!4v1621443681046!5m2!1sen!2shk&markers=color:red%7Clabel:D%7C22.285376,114.141730";
+        map.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.8964120199723!2d114.14173001529998!3d22.285376285326205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400e5d0e87b19%3A0x8db3e7b3657c4628!2sDiocesan%20Home%20and%20Orphanage!5e0!3m2!1sen!2shk!4v1621443681046!5m2!1sen!2shk&markers=color:red%7C22.285376,114.141730";
         break;
       case 'map3':
         map.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.9364120199723!2d114.14589701529998!3d22.287487285324304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400e9d0d9b1f9%3A0x9db3e9b3658d4628!2sCaine%20Road!5e0!3m2!1sen!2shk!4v1621443681047!5m2!1sen!2shk";
@@ -88,6 +88,7 @@ function updateMap(mapId) {
         map.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.8564120199723!2d114.13856231529998!3d22.283265285328106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400ddf0d63d21%3A0x515ede18c18b52e6!2sSun%20Yat%20Sen%20Memorial%20Park!5e0!3m2!1sen!2shk!4v1621443681045!5m2!1sen!2shk";
     }
   }
+  
 
 
 

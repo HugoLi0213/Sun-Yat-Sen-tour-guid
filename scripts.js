@@ -68,7 +68,7 @@ We look forward to guiding you once more on this captivating expedition, as we u
             textContent.textContent = "No text available for this track.";
     }
 }
-
+// using mapURL to update the map,use google map API to update the map will be better
 function updateMap(mapId) {
     var map = document.getElementById("map");
     switch(mapId) {

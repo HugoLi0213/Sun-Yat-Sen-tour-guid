@@ -79,13 +79,13 @@ function updateMap(mapId) {
         map.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.8964120199723!2d114.14173001529998!3d22.285376285326205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400e5d0e87b19%3A0x8db3e7b3657c4628!2sDiocesan%20Home%20and%20Orphanage!5e0!3m2!1sen!2shk!4v1621443681046!5m2!1sen!2shk&markers=color:red%7C22.285376,114.141730";
         break;
       case 'map3':
-        map.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.9364120199723!2d114.14589701529998!3d22.287487285324304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400e9d0d9b1f9%3A0x9db3e9b3658d4628!2sCaine%20Road!5e0!3m2!1sen!2shk!4v1621443681047!5m2!1sen!2shk";
+        map.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.9364120199723!2d114.14589701529998!3d22.287487285324304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400e9d0d9b1f9%3A0x9db3e9b3658d4628!2sCaine%20Road!5e0!3m2!1sen!2shk!4v1621443681047!5m2!1sen!2shk&markers=color:red%7C22.287487,114.145897";
         break;
       case 'map4':
-        map.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.9764120199723!2d114.15006401529998!3d22.289598285322403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400f0d0e97b19%3A0xadb3e8b3659d4628!2sBridges%20Street!5e0!3m2!1sen!2shk!4v1621443681048!5m2!1sen!2shk";
+        map.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.9764120199723!2d114.15006401529998!3d22.289598285322403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400f0d0e97b19%3A0xadb3e8b3659d4628!2sBridges%20Street!5e0!3m2!1sen!2shk!4v1621443681048!5m2!1sen!2shk&markers=color:red%7C22.289598,114.150064";
         break;
       default:
-        map.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.8564120199723!2d114.13856231529998!3d22.283265285328106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400ddf0d63d21%3A0x515ede18c18b52e6!2sSun%20Yat%20Sen%20Memorial%20Park!5e0!3m2!1sen!2shk!4v1621443681045!5m2!1sen!2shk";
+        map.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.8564120199723!2d114.13856231529998!3d22.283265285328106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400ddf0d63d21%3A0x515ede18c18b52e6!2sSun%20Yat%20Sen%20Memorial%20Park!5e0!3m2!1sen!2shk!4v1621443681045!5m2!1sen!2shk&markers=color:red%7C22.283265,114.138562";
     }
   }
   

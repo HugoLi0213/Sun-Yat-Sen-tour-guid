@@ -1,6 +1,4 @@
-Here's an updated README that also specifies the framework used in the project:
 
----
 
 # Sun Yat-Sen Tour Guide
 
